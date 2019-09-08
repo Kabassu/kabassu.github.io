@@ -1,0 +1,14 @@
+main:
+  - title: "Quick-Start Guide"
+    url: /docs/getting-started/
+  - title: "Documentation"
+    url: /docs/
+  - title: "Contact us"
+    url: /contact/
+  - title: "GitHub"
+    url: https://github.com/kabassu
+docs:
+  - title: "Essentials"
+    children:
+      - title: "Getting started"
+        url: /docs/getting-started/
