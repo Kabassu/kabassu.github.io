@@ -225,8 +225,22 @@ defaults:
       toc: true
       sidebar:
         nav: "docs"
-
+  - scope:
+      path: ""
+      type: docs-gui
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc: true
+      sidebar:
+        nav: "docs-gui"
 collections:
   docs:
+    output: true
+    permalink: /:collection/:path/
+  docs-gui:
     output: true
     permalink: /:collection/:path/

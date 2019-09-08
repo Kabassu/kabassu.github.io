@@ -1,6 +1,8 @@
 main:
-  - title: "Quick-Start Guide"
+  - title: "Kabassu Guide"
     url: /docs/getting-started/
+  - title: "Kabassu GUI Guide"
+    url: /docs-gui/getting-started/
   - title: "Documentation"
     url: /docs/
   - title: "Contact us"
@@ -8,7 +10,36 @@ main:
   - title: "GitHub"
     url: https://github.com/kabassu
 docs:
-  - title: "Essentials"
+  - title: "Kabassu Essentials"
     children:
       - title: "Getting started"
         url: /docs/getting-started/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Configuration"
+        url: /docs/configuration/configuration/
+  - title: "Configuration"
+    children:
+      - title: "io.kabassu.server.json"
+        url: /docs/configuration/server/
+      - title: "io.kabassu.runner.gradle.json"
+        url: /docs/configuration/runner.gradle/
+      - title: "io.kabassu.results.retriever.main.json"
+        url: /docs/configuration/retriever.main/
+      - title: "io.kabassu.mongo.json"
+        url: /docs/configuration/mongo/
+      - title: "io.kabassu.results.server.json"
+        url: /docs/configuration/results.server/
+      - title: "io.kabassu.files.retriever.json"
+        url: /docs/configuration/files.retriever/
+  - title: "Guides"
+    children:
+      - title: "Single Test"
+        url: /docs/guide/singletest/
+      - title: "Test Suite"
+        url: /docs/guide/testsuite/
+docs-gui:
+  - title: "Kabassu GUI Essentials"
+    children:
+      - title: "Getting started"
+        url: /docs-gui/getting-started/
