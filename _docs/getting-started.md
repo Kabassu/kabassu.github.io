@@ -1,4 +1,4 @@
 ---
 title: Getting started
 ---
-Coming soon ...
+Coming soon ... {{ site.github.api_url }}

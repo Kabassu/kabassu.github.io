@@ -49,7 +49,7 @@
         <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
       {% if page.header.github_buttons %}
-
+        <p><a href="https://github.com/Kabassu/kabassu/releases/latest" class="btn btn--light-outline ">Kabassu Latest Release</a><a href="https://github.com/Kabassu/kabassu-gui/releases/latest" class="btn btn--light-outline ">Kabassu GUI Latest Release</a></p>
       {% endif %}
       {% if page.header.cta_url %}
         <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>

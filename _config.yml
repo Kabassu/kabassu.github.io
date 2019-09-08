@@ -22,7 +22,7 @@ name                     : "Kabassu"
 description              : "Test Manager using REST services"
 url                      : "https://kabassu.io"
 baseurl                  : ""
-repository               : "kabassu/kabassu"
+repository               : "kabassu"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -158,6 +158,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-github-metadata
   - jekyll-gist
   - jekyll-feed
   - jemoji
