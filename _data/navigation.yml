@@ -20,6 +20,8 @@ docs:
         url: /docs/configuration/configuration/
   - title: "Configuration"
     children:
+      - title: "io.kabassu.setup.json"
+        url: /docs/configuration/setup/
       - title: "io.kabassu.server.json"
         url: /docs/configuration/server/
       - title: "io.kabassu.runner.gradle.json"
@@ -38,6 +40,8 @@ docs:
         url: /docs/guide/singletest/
       - title: "Test Suite"
         url: /docs/guide/testsuite/
+      - title: "AET Test"
+        url: /docs/guide/aettest/
 docs-gui:
   - title: "Kabassu GUI Essentials"
     children:
