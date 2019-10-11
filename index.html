@@ -7,20 +7,94 @@ header:
     cta_label: "Get started"
     cta_url: "/docs/getting-started/"
     github_buttons: true
-excerpt: "Test Manager using REST services"
-about:
-    - title: "About"
+excerpt:
+welcome:
+    - title: "Meet Kabassu"
       image_path: "/assets/img/armadillo.png"
-      excerpt: The goal of Kabassu is to create test central, place where users can gather different tests for different application, run them against different enviroments and configurations
-kabassu:
-    - title: "Kabassu"
-      excerpt: Main application which is using REST to comunicate with rest of the world. <br>[Github Repository](https://github.com/Kabassu/kabassu)
+      image_size: 50%
+      excerpt: "**the friendly armadillo running your tests**"
 
-kabassugui:
-    - title: "Kabassu GUI"
-      excerpt: Our default GUI that can be used with Kabassu <br>[Github Repository](https://github.com/Kabassu/kabassu-gui)
+what:
+    - title: "What does it do"
+      excerpt: "- A place to manage all your test automation executions
+
+- Manage different configurations in one place
+
+- Gather all the reports
+
+- Keep the history of everything"
+
+    - title: "Principles"
+      excerpt: "- Language and framework agnostic
+
+- Don’t force any SDK usage or existing tests modifications
+
+- Easy to use
+
+- Extendable"
+
+    - title: "General usage scenario"
+      excerpt: "- Define definitions (templates)
+
+- Define a specific execution by providing concrete parameters
+
+- Run your tests (no matter what framework/language it is)
+
+- Check out the results"
+
+features:
+    - excerpt: "- Gradle runner
+
+- CLI runner
+
+- AET runner"
+
+    - excerpt: "- [Allure reporting](http://allure.qatools.ru/) "
+
+    - excerpt: "- [Bobcat](https://github.com/Cognifide/bobcat)
+
+- [Robot](https://robotframework.org)
+
+- [AET](https://github.com/Cognifide/aet) "
+
+planned:
+    - excerpt: "- Make this more secure
+
+- Proper user management
+
+- Personalization"
+
+    - excerpt: "- Make the setup painless
+
+- Data analysis
+
+- Redefine GUI "
+
+    - excerpt: "- And... other cool stuff WE (hope this includes YOU) will come up with"
+
+tech_stack:
+    - title: "Current tech stack"
+      image_path: "/assets/img/gear-1674891_640.png"
+      image_size: 50%
+      excerpt: "- Backend: [Vert.x](https://vertx.io) (Java)
+
+- Frontend: [React](https://reactjs.org) and [Next.js](http://nextjs.org)
+
+- Database: [MongoDB](https://www.mongodb.com/)"
+
+apps:
+    - title: "Applications"
+      image_path: "/assets/img/armadillo.png"
+      image_size: 50%
+      excerpt: "- [Kabassu](https://github.com/Kabassu/kabassu/releases/latest) - our main application. Documentation can be found [here](/docs/getting-started/)
+
+- [Kabassu GUI](https://github.com/Kabassu/kabassu-gui/releases/latest) - our prototype GUI for Kabassu. Documentation can be found [here](/docs-gui/getting-started/)"
 ---
 
-{% include feature_row id="about" type="left" %}
-{% include feature_row id="kabassu" type="right" %}
-{% include feature_row id="kabassugui" type="left" %}
+{% include feature_row id="welcome" type="center" %}
+{% include feature_row id="what" %}
+{% include feature_row id="features" title="Existing features" %}
+{% include feature_row id="planned" title="Planned features" %}
+{% include feature_row id="tech_stack" type="left" %}
+{% include feature_row id="apps" type="left" %}
+
