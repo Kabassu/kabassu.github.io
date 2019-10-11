@@ -49,3 +49,5 @@ docs-gui:
     children:
       - title: "Getting started"
         url: /docs-gui/getting-started/
+      - title: "Troubleshooting"
+        url: /docs-gui/troubleshooting/

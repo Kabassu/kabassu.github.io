@@ -2,7 +2,7 @@
 title: Getting started - Kabassu GUI
 ---
 
-This manual is for [lastest released version](https://github.com/Kabassu/kabassu-gui/releases/latest)
+This manual is for [latest released version](https://github.com/Kabassu/kabassu-gui/releases/latest)
 
 Build with Next.js and AdminLTE user interface for Kabassu
 
