@@ -3,19 +3,24 @@ title: Test Suite
 ---
 
 Test suite is set of definitions that can be run together. After creation it can be run and test executions for all definitions are created. 
-1. Create test suite
-2. Create and run suite execution
-3. Get the status and results of every test execution in suite
-4. Rerun test execution
+1. Login using our [guide](/docs/guide/login)    
+2. Create test suite
+3. Create and run suite execution
+4. Get the status and results of every test execution in suite
+5. Rerun test execution
+
+## Login
+
+After login you will receive access token. Each call should have set header _Authorization_ with value _Bearer \<access\_token\>_
 
 ## Create test suite
 Endpoint: ``POST /kabassu/addsuite``  
 
 Request
-```
+```json
 {
   "name":	"string",
-  "description":	"string"
+  "description":	"string",
   "definitions":	["first_definition_id","second_definition_id"]
 }
 ```
@@ -29,7 +34,7 @@ Suite execution is taking test suite, then creates test execution for every defi
 Endpoint: ``POST /kabassu/suite/run``
 
 Request
-```
+```json
 {
   "suiteId": "5d664144d6c8ed646fc8d4b0",
   "definitionsData":[
@@ -39,6 +44,7 @@ Request
 		  "additionalParameters": {
 		  	"branch": "test",
 		  	"jvm":"1.8"	
+  	  }
   	},
   	{
   		"definitionId": "5d664103d6c8ed646fc8d4ae",
@@ -64,7 +70,7 @@ First we need to get suite execution data
 Endpoint: ``GET /kabassu/getsuiterun/{id}``   
 **id** - id of suite execution   
 Response:
-```
+```json
 {
   "_id" : "5d6674778ba8ca129804b437",
   "suiteId" : "5d664144d6c8ed646fc8d4b0",

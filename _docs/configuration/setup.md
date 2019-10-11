@@ -18,5 +18,5 @@ toc: false
   }
 }
 ```
-**users** array of default users that should be created in database.
+**users** array of default users that should be created in database. - For security reasons entries should be deleted after first run
 
