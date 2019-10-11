@@ -2,13 +2,18 @@
 title: Single Test Guide
 ---
 
-Single Test in Kabassu is single test project that can be run with one command. Its creation and execution contains:   
-1. Create definition
+Single Test in Kabassu is single test project that can be run with one command. Its creation and execution contains:
+1. Login using our [guide](/docs/guide/login)    
+2. Create definition
 2. Create and run execution based on definition
 3. Get the status of execution
 4. Get the result
 5. View report
 6. Rerun test
+
+## Login
+
+After login you will receive access token. Each call should have set header _Authorization_ with value _Bearer \<access\_token\>_
 
 ## Create Definition
 
@@ -16,7 +21,7 @@ Definition is the base of Kabassu system. It contains all constant information a
 Endpoint: ``POST /kabassu/adddefinition`` 
 
 Request 
-```
+```json
 {
   "name": "test",
   "runner": "gradle",
@@ -24,7 +29,7 @@ Request
   "additionalParameters": {
   	"repository": "git@github.com:Kabassu/kabassu-simple-test.git",
   	"location": "",
-  	"runnerOptions": ["clean", "test"],
+  	"runnerOptions": ["clean", "test"]
   },
   "reports": [ "allure", "allure-trend" ]
 }
@@ -46,13 +51,13 @@ Execution is actual request to run test based on definition. It also can contain
 Endpoint: ``POST  /kabassu/test/run:``   
 
 Request
-```
+```json
 {
   "definitionId": "5d6914b4540d7f634e494f55",
   "configurationId": "string",
   "additionalParameters": {
   	"branch": "test",
-  	  "jvm":"1.8",
+  	  "jvm":"1.8"
   },
   "description": "Test execution descriptiom"
 }
@@ -71,7 +76,7 @@ Endpoint: ``GET /kabassu/getrequest/{id}``
 **{id}** - id of created execution
 
 Response:  
-```
+```json
 {
   "_id" : "5d692388540d7f634e494f5b",
   "definitionId" : "5d691239540d7f634e494f4f",
@@ -79,7 +84,7 @@ Response:
   "configurationId" : "string",
   "additionalParameters" : {
     "branch" : "test",
-    "jvm" : "1.8",
+    "jvm" : "1.8"
   },
   "status" : "finished",
   "history" : [ {
@@ -111,7 +116,7 @@ For results: ``GET /kabassu/getallbyfield/kabassu-results/testRequest._id/5d5d3f
 **pageSize** - how many results are present in one page
 
 Response:
-```
+```json
 {
   "results" : [ {
     "_id" : "5d6923a2540d7f634e494f5c",

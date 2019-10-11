@@ -5,11 +5,12 @@ toc: false
 ---
 
 
-```
+```json
 {
   (...)
     "downloadDirectory":  "../../../test-dir"
   }
 }
 ```
-**downloadDirectory** - directory where test files will be downloaded
+
+- **downloadDirectory** - directory where test files will be downloaded

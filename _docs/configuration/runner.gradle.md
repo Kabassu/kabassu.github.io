@@ -4,7 +4,7 @@ classes: wide
 toc: false
 ---
 
-```
+```json
 {  
 (...)  
     "jvm": {  
@@ -15,7 +15,7 @@ toc: false
 }
  ```
 
-**jvm** - here we configure all JVM that can be used by our tests. To add new JVM we need to add new entry  
+- **jvm** - here we configure all JVM that can be used by our tests. To add new JVM we need to add new entry  
 ```"<name>": "<path>"```   
 Please remember that ``,`` should separate entries
 
