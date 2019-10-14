@@ -10,7 +10,6 @@ What parameters can be set in definition request:
 
 Additional parameters (will override one from configuration):
  - **runnerOptions** - used for runners that require additional parameters (for example _clean test_ for gradle)
- - **jvm** - used if gradle test required different _jvm_ then the one running Kabassu
  - **repository** - address of git repository (if git was chosen as test location type)
  - **location** - test location on disk (if filesystem was chosen as test location type)
  - **reportDir** - reports location for generic reports retrieve
