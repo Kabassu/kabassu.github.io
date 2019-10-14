@@ -2,7 +2,7 @@
 title: Getting started - Kabassu
 ---
 
-This manual is for [lastest released version](https://github.com/Kabassu/kabassu/releases/latest)
+This manual is for [latest released version](https://github.com/Kabassu/kabassu/releases/latest)
 
 ## Description
 The goal of Kabassu is to create test central, place where users can gather different tests for different application, run them against different enviroments and configurations

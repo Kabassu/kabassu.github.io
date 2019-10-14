@@ -44,8 +44,22 @@ docs:
         url: /docs/guide/testsuite/
       - title: "AET Test"
         url: /docs/guide/aettest/
+  - title: "Details"
+    children:
+      - title: "Reports"
+        url: /docs/details/reports/
+      - title: "Runners"
+        url: /docs/details/runners/
+  - title: "Parameters"
+    children:
+      - title: "Definition"
+        url: /docs/parameters/definition/
+      - title: "Execution"
+        url: /docs/parameters/execution/
 docs-gui:
   - title: "Kabassu GUI Essentials"
     children:
       - title: "Getting started"
         url: /docs-gui/getting-started/
+      - title: "Troubleshooting"
+        url: /docs-gui/troubleshooting/
