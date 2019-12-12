@@ -63,3 +63,5 @@ docs-gui:
         url: /docs-gui/getting-started/
       - title: "Troubleshooting"
         url: /docs-gui/troubleshooting/
+      - title: "Wizards"
+        url: /docs-gui/wizards/
