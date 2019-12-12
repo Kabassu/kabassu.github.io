@@ -42,7 +42,7 @@ If there is the same parameter in configuration and definition then value from d
 Additional Parameters:
 - parameter B: Text Value Z
 
-**Kabassu will merge ConfigurationA and Additional Parameters and result in the end**
+**Kabassu will merge ConfigurationA, additional parameters from definition and result in the end**
 
 *DefinitionA*
 - name: definition
