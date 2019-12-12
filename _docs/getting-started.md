@@ -25,6 +25,7 @@ Kabassu is run by calling series of rest services. All available endpoints can b
 
 ## Guides
 
+- [Guide: What are executions, definitions and executions](/docs/guide/conf-def-exe)
 - [Guide for single test](/docs/guide/singletest) 
 - [Guide for AET test](/docs/guide/aettest)
 
