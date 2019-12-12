@@ -24,7 +24,7 @@ If there is the same parameter in configuration and definition then value from d
 
 ## Example
 
-### There are two configurations:
+**There are two configurations:**
 
 *ConfigurationA* 
 - parameter A: Text Value A
@@ -33,7 +33,7 @@ If there is the same parameter in configuration and definition then value from d
 *ConfigurationB* 
 - parameter C: Text Value C
 
-### Definition was created and connected to **ConfigurationA**
+**Definition was created and connected to ConfigurationA**
 
 *DefinitionA*
 - name: definition
@@ -42,7 +42,7 @@ If there is the same parameter in configuration and definition then value from d
 Additional Parameters:
 - parameter B: Text Value Z
 
-### Kabassu will merge **ConfigurationA** and Additional Parameters and result in the end
+**Kabassu will merge ConfigurationA and Additional Parameters and result in the end**
 
 *DefinitionA*
 - name: definition
@@ -51,13 +51,13 @@ Additional Parameters:
 - parameter A: Text Value A
 - parameter B: Text Value Z
 
-### Next step is create an execution from **DefinitionA**. 
+**Next step is create an execution from DefinitionA** 
 
 *ExecutionA*
 - name: execution
 - configuration: ConfigurationB
 
-### Kabassu will now merge all additional parameters and this will be execution to run:
+**Kabassu will now merge all additional parameters and this will be execution to run**
 
 *ExecutionA*
 - name: execution   
