@@ -40,8 +40,6 @@ docs:
         url: /docs/guide/login/
       - title: "Single Test"
         url: /docs/guide/singletest/
-      - title: "Test Suite"
-        url: /docs/guide/testsuite/
       - title: "AET Test"
         url: /docs/guide/aettest/
   - title: "Details"
@@ -50,6 +48,8 @@ docs:
         url: /docs/details/reports/
       - title: "Runners"
         url: /docs/details/runners/
+      - title: "Views"
+        url: /docs/details/views/
   - title: "Parameters"
     children:
       - title: "Definition"

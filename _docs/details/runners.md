@@ -20,3 +20,8 @@ Name: _command_
 
 Runs any test that can be called using command line
 
+### Lighthouse Runner
+
+Name: _lighthouse_
+
+Runs lighthouse tests
