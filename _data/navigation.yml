@@ -36,12 +36,12 @@ docs:
         url: /docs/configuration/files.retriever/
   - title: "Guides"
     children:
+      - title: "Configurations, Definitions, Executions"
+        url: /docs/guide/conf-def-exe/
       - title: "Login"
         url: /docs/guide/login/
       - title: "Single Test"
         url: /docs/guide/singletest/
-      - title: "Test Suite"
-        url: /docs/guide/testsuite/
       - title: "AET Test"
         url: /docs/guide/aettest/
   - title: "Details"
@@ -50,6 +50,8 @@ docs:
         url: /docs/details/reports/
       - title: "Runners"
         url: /docs/details/runners/
+      - title: "Views"
+        url: /docs/details/views/
   - title: "Parameters"
     children:
       - title: "Definition"
@@ -63,3 +65,5 @@ docs-gui:
         url: /docs-gui/getting-started/
       - title: "Troubleshooting"
         url: /docs-gui/troubleshooting/
+      - title: "Wizards"
+        url: /docs-gui/wizards/

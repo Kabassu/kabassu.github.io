@@ -17,3 +17,11 @@ Additional parameters (will override one from configuration):
  - **server** - server address for AET tests 
  - **port** - port for AET tests
  - **suite** - suite for AET Tests
+ - **jvm** - used if gradle test required different _jvm_ then the one running Kabassu
+ - **branch** - used with git and different branch then _master_
+ - **domain** - used in AET - overrides domain from suite
+ - **pattern** - used in AET - overrides patter from suite
+ - **name** - used in AET - overrides name from suite
+ - every Lighthouse command line parameter can be added here
+ 
+ 
